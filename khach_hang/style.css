@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+}
+img {
+	max-width: 100%
+}
+#banner{
+	width: 100%;
+	margin-top: -30px;
+    margin-bottom: 30px;
+}
+#banner img {
+	max-width: 100%;
+}
+#menu{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 999;
+}
+#primary_nav_wrap
+{
+	width: 100%;
+}
+
+#primary_nav_wrap ul
+{
+	list-style: none;
+	margin: 0;
+	position: relative;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	display: inline-block;
+	position: relative;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0;
+	border-radius: 0 0 8px 8px;
+	overflow: hidden;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	display: block;
+	border-top: 1px solid #fff;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+input[type=search] {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	border: none;
+	background: #f0f0f0;
+	text-indent: 10px;
+	min-width: 420px;
+}
+input[type=search]::placeholder {
+	color: #c1c1c1;
+	font-size: 16px;
+}
+table {
+	max-width: 1024px;
+	margin: 0 auto;
+	border: 1px gray;
+	border-collapse: collapse;
+	margin-top: 16px;
+}
+table tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+table tr:nth-child(even) {
+	background-color: #F1F1F1;
+}
+table th, table td {
+	min-width: 120px;
+	padding: 10px;
+}
+
+.pagination {
+	margin: 32px auto;
+}
+.pagination a {
+	display: inline-block;
+	margin-right: 8px;
+}
+.pagination a:last-child {
+	margin-right: 0;
+}
+.list-product {
+	display: flex;
+	justify-content: center;
+	padding: 0 20px;
+}
+.san_pham {
+	width: 30%;
+	text-align: center;
+	margin-right: 3.3%;
+	box-shadow: 3px 12px 32px #999;
+}
+.san_pham:last-child {
+	margin-right: 0;
+}
+.san_pham h2 {
+	font-size: 20px;
+	color: #555;
+}
+.san_pham p {
+	font-size: 14px;
+	color: #999;
+}
+.san_pham a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#div_tong {
+	padding: 20px;
+    display: flex;
+}
+#div_trai {
+    width: 40%;
+    flex-shrink: 0;
+}
+#div_phai {
+	text-align: left;
+    padding: 20px;
+}
+#div_tong a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    text-decoration: none;
+    background: #a7d8dc;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: #000;
+}
+#div_tong a:hover {
+    opacity: 0.8;
+}
+.total-price {
+	max-width: 1024px;
+	margin: 24px auto;
+}
+
+.form-order input,  
+.form-order textarea {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	border: none;
+	background: #f0f0f0;
+	text-indent: 10px;
+	min-width: 420px;
+}
+.form-order input::placeholder,
+.form-order textarea::placeholder {
+	color: #c1c1c1;
+	font-size: 16px;
+}
+.form-order table tr:nth-child(even) {
+    background-color: transparent;
+}
+.form-order button {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    text-decoration: none;
+    background: #a7d8dc;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: #000;
+    display: block;
+    width: max-content;
+    margin: 0 auto 24px;
+    border: none;
+    cursor: pointer;
+}
+
+#footer{
+	width: 100%;
+	background: lightgray;
+	text-align: center;
+}
+#footer h1 {
+	margin: 0;
+}
+
+.tung_san_pham{
+	border: 1px black solid;
+	width: 33%;
+	height: 400px;
+	float: left;
+}
